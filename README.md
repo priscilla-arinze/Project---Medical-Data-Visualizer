@@ -1,0 +1,94 @@
+# Medical Data Visualizer
+
+In this project, you will visualize and make calculations from medical examination data using matplotlib, seaborn, and pandas. The dataset values were collected during medical examinations.
+
+### Data description
+
+The rows in the dataset represent patients and the columns represent information like body measurements, results from various blood tests, and lifestyle choices. You will use the dataset to explore the relationship between cardiac disease, body measurements, blood markers, and lifestyle choices.
+
+File name: `medical_examination.csv`
+
+<table>
+<thead>
+<tr>
+<th align="center">Feature</th>
+<th align="center">Variable Type</th>
+<th align="center">Variable</th>
+<th align="center">Value Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Age</td>
+<td align="center">Objective Feature</td>
+<td align="center">age</td>
+<td align="center">int (days)</td>
+</tr>
+<tr>
+<td align="center">Height</td>
+<td align="center">Objective Feature</td>
+<td align="center">height</td>
+<td align="center">int (cm)</td>
+</tr>
+<tr>
+<td align="center">Weight</td>
+<td align="center">Objective Feature</td>
+<td align="center">weight</td>
+<td align="center">float (kg)</td>
+</tr>
+<tr>
+<td align="center">Gender</td>
+<td align="center">Objective Feature</td>
+<td align="center">gender</td>
+<td align="center">categorical code</td>
+</tr>
+<tr>
+<td align="center">Systolic blood pressure</td>
+<td align="center">Examination Feature</td>
+<td align="center">ap_hi</td>
+<td align="center">int</td>
+</tr>
+<tr>
+<td align="center">Diastolic blood pressure</td>
+<td align="center">Examination Feature</td>
+<td align="center">ap_lo</td>
+<td align="center">int</td>
+</tr>
+<tr>
+<td align="center">Cholesterol</td>
+<td align="center">Examination Feature</td>
+<td align="center">cholesterol</td>
+<td align="center">1: normal, 2: above normal, 3: well above normal</td>
+</tr>
+<tr>
+<td align="center">Glucose</td>
+<td align="center">Examination Feature</td>
+<td align="center">gluc</td>
+<td align="center">1: normal, 2: above normal, 3: well above normal</td>
+</tr>
+<tr>
+<td align="center">Smoking</td>
+<td align="center">Subjective Feature</td>
+<td align="center">smoke</td>
+<td align="center">binary</td>
+</tr>
+<tr>
+<td align="center">Alcohol intake</td>
+<td align="center">Subjective Feature</td>
+<td align="center">alco</td>
+<td align="center">binary</td>
+</tr>
+<tr>
+<td align="center">Physical activity</td>
+<td align="center">Subjective Feature</td>
+<td align="center">active</td>
+<td align="center">binary</td>
+</tr>
+<tr>
+<td align="center">Presence or absence of cardiovascular disease</td>
+<td align="center">Target Variable</td>
+<td align="center">cardio</td>
+<td align="center">binary</td>
+</tr>
+</tbody>
+</table>
